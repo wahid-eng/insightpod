@@ -15,21 +15,21 @@ import Podcast from '../Podcast/Podcast.vue';
 			<div class="grid grid-weekly-podcast gap-8 mt-8">
 				<Podcast
 					id="1"
-					thumbnail="/src/assets/images/weekly-pod-1-thumb.png"
+					thumbnail="/src/assets/images/weekly-pod-1-thumb.webp"
 					title="Quarter-life crisis"
 					author="Brock Leslar"
 					time="23:30"
 				/>
 				<Podcast
 					id="1"
-					thumbnail="/src/assets/images/weekly-pod-2-thumb.png"
+					thumbnail="/src/assets/images/weekly-pod-2-thumb.webp"
 					title="Finance Gen Z"
 					author="Allen John"
 					time="45:00"
 				/>
 				<Podcast
 					id="1"
-					thumbnail="/src/assets/images/weekly-pod-3-thumb.png"
+					thumbnail="/src/assets/images/weekly-pod-3-thumb.webp"
 					title="Love, Family, dan"
 					author="Aidan &amp; Friends"
 					time="16:20"

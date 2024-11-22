@@ -14,6 +14,7 @@ const props = defineProps({
 			:src="thumbnail"
 			:alt="`${title} thumbnail`"
 			class="bg-orange-950 rounded-[1.75rem] w-28 h-28 object-contain"
+			loading="lazy"
 		/>
 		<div class="flex flex-col relative flex-1">
 			<h4 class="font-medium text-orange-950 text-xl">{{ title }}</h4>

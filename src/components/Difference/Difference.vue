@@ -16,7 +16,9 @@ import thumbnail from '../../assets/images/difference.svg';
 				/>
 			</div>
 			<div>
-				<h2 class="text-4xl lg:text-5xl font-extrabold text-orange-950">
+				<h2
+					class="text-4xl lg:text-5xl lg:leading-tight font-extrabold text-orange-950"
+				>
 					What makes us different from other
 				</h2>
 				<p class="my-4">

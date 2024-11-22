@@ -3,6 +3,7 @@ import Difference from './components/Difference/Difference.vue';
 import Delivery from './components/Delivery/Delivery.vue';
 import Header from './components/Header/Header.vue';
 import Hero from './components/Hero/Hero.vue';
+import Listen from './components/Listen/Listen.vue';
 import TopPodcasters from './components/TopPodcasters/TopPodcasters.vue';
 import WeeklyPodcast from './components/WeeklyPodcast/WeeklyPodcast.vue';
 </script>
@@ -14,4 +15,5 @@ import WeeklyPodcast from './components/WeeklyPodcast/WeeklyPodcast.vue';
 	<TopPodcasters />
 	<Delivery />
 	<Difference />
+	<Listen />
 </template>

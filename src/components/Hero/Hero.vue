@@ -41,7 +41,7 @@ import Button from '../Button/Button.vue';
 			</div>
 			<div class="flex-1">
 				<img
-					src="../../assets/images/hero-thumbnail.svg"
+					src="../../assets/images/hero-thumbnail.webp"
 					alt="Hero thumbnail"
 					class="max-w-xs lg:max-w-md xl:max-w-lg 2xl:max-w-xl mx-auto md:ms-auto md:me-0"
 					loading="lazy"

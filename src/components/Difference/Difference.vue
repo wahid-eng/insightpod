@@ -1,5 +1,5 @@
 <script setup>
-import thumbnail from '../../assets/images/difference.svg';
+import thumbnail from '../../assets/images/difference.webp';
 </script>
 
 <template>

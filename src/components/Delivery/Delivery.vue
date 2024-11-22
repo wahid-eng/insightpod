@@ -1,5 +1,5 @@
 <script setup>
-import thumbnail from '../../assets/images/delivery.svg';
+import thumbnail from '../../assets/images/delivery.webp';
 </script>
 
 <template>

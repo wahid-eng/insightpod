@@ -1,6 +1,6 @@
 <script setup>
 import Button from '../Button/Button.vue';
-import thumbnail from '../../assets/images/listen.svg';
+import thumbnail from '../../assets/images/listen.webp';
 </script>
 
 <template>

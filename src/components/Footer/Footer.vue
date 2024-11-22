@@ -2,7 +2,7 @@
 	<footer>
 		<div class="container py-16">
 			<h2
-				class="text-4xl font-extrabold text-orange-950 text-center lg:w-1/2 lg:mx-auto mb-20"
+				class="text-3xl font-extrabold text-orange-950 text-center lg:w-1/2 lg:mx-auto mb-20"
 			>
 				<span class="leading-tight"
 					>Unlock invaluable wisdom personalized for

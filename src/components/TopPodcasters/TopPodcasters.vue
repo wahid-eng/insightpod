@@ -10,7 +10,7 @@ import podcaster4 from '../../assets/images/top-podcaster-4.webp';
 	<section>
 		<div class="container py-16">
 			<h2
-				class="text-5xl font-extrabold text-orange-950 text-center w-96 mx-auto leading-tight"
+				class="text-3xl lg:text-5xl font-extrabold text-orange-950 text-center lg:w-96 lg:mx-auto leading-tight"
 			>
 				Top Podcasters of the Week
 			</h2>

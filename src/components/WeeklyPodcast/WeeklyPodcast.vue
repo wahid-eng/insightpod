@@ -10,7 +10,9 @@ import podThumb3 from '../../assets/images/weekly-pod-3-thumb.webp';
 	<section>
 		<div class="container py-16">
 			<div class="flex items-center gap-x-8 justify-between">
-				<h2 class="text-5xl font-extrabold text-orange-950">Weelky Podcast</h2>
+				<h2 class="text-3xl lg:text-5xl font-extrabold text-orange-950">
+					Weelky Podcast
+				</h2>
 				<Button class="text-yellow-300 border-yellow-300 min-w-36"
 					>See All</Button
 				>
@@ -40,6 +42,14 @@ import podThumb3 from '../../assets/images/weekly-pod-3-thumb.webp';
 					time="16:20"
 					background="bg-pink-300"
 				/>
+				<Podcast
+					id="1"
+					:thumbnail="podThumb1"
+					title="Freedom of life"
+					author="Brock Leslar"
+					time="18:33"
+					background="bg-orange-950"
+				/>
 			</div>
 		</div>
 	</section>
@@ -47,6 +57,6 @@ import podThumb3 from '../../assets/images/weekly-pod-3-thumb.webp';
 
 <style scoped>
 .grid-weekly-podcast {
-	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
 </style>

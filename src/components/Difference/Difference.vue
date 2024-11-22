@@ -17,7 +17,7 @@ import thumbnail from '../../assets/images/difference.webp';
 			</div>
 			<div>
 				<h2
-					class="text-4xl lg:text-5xl lg:leading-tight font-extrabold text-orange-950"
+					class="text-3xl lg:text-5xl lg:leading-tight font-extrabold text-orange-950"
 				>
 					What makes us different from other
 				</h2>

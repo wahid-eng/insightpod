@@ -14,11 +14,11 @@ import thumbnail from '../../assets/images/listen.webp';
 						:src="thumbnail"
 						alt="Difference Thumbnail"
 						loading="lazy"
-						class="max-w-xs lg:max-w-md xl:max-w-lg 2xl:max-w-xl mx-auto"
+						class="lg:max-w-md xl:max-w-lg 2xl:max-w-xl mx-auto"
 					/>
 				</div>
 				<div>
-					<h2 class="text-4xl lg:text-5xl font-extrabold lg:leading-tight">
+					<h2 class="text-3xl lg:text-5xl font-extrabold lg:leading-tight">
 						Listen to the latest and exciting podcast content
 					</h2>
 					<p class="my-8">

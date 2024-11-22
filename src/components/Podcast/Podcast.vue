@@ -5,6 +5,10 @@ const props = defineProps({
 	title: String,
 	author: String,
 	time: String,
+	background: {
+		type: String,
+		default: 'bg-orange-950',
+	},
 });
 </script>
 
@@ -13,7 +17,7 @@ const props = defineProps({
 		<img
 			:src="thumbnail"
 			:alt="`${title} thumbnail`"
-			class="bg-orange-950 rounded-[1.75rem] w-28 h-28 object-contain"
+			:class="['rounded-3xl w-28 h-28 object-fill', background]"
 			loading="lazy"
 		/>
 		<div class="flex flex-col relative flex-1">

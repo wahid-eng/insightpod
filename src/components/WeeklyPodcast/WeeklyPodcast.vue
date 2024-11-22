@@ -1,6 +1,9 @@
 <script setup>
 import Button from '../Button/Button.vue';
 import Podcast from '../Podcast/Podcast.vue';
+import podThumb1 from '../../assets/images/weekly-pod-1-thumb.webp';
+import podThumb2 from '../../assets/images/weekly-pod-2-thumb.webp';
+import podThumb3 from '../../assets/images/weekly-pod-3-thumb.webp';
 </script>
 
 <template>
@@ -15,24 +18,27 @@ import Podcast from '../Podcast/Podcast.vue';
 			<div class="grid grid-weekly-podcast gap-8 mt-8">
 				<Podcast
 					id="1"
-					thumbnail="/src/assets/images/weekly-pod-1-thumb.webp"
+					:thumbnail="podThumb1"
 					title="Quarter-life crisis"
 					author="Brock Leslar"
 					time="23:30"
+					background="bg-green-300"
 				/>
 				<Podcast
 					id="1"
-					thumbnail="/src/assets/images/weekly-pod-2-thumb.webp"
+					:thumbnail="podThumb2"
 					title="Finance Gen Z"
 					author="Allen John"
 					time="45:00"
+					background="bg-yellow-300"
 				/>
 				<Podcast
 					id="1"
-					thumbnail="/src/assets/images/weekly-pod-3-thumb.webp"
+					:thumbnail="podThumb3"
 					title="Love, Family, dan"
 					author="Aidan &amp; Friends"
 					time="16:20"
+					background="bg-pink-300"
 				/>
 			</div>
 		</div>

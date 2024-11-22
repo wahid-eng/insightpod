@@ -1,4 +1,5 @@
 <script setup>
+import Delivery from './components/Delivery/Delivery.vue';
 import Header from './components/Header/Header.vue';
 import Hero from './components/Hero/Hero.vue';
 import TopPodcasters from './components/TopPodcasters/TopPodcasters.vue';
@@ -10,4 +11,5 @@ import WeeklyPodcast from './components/WeeklyPodcast/WeeklyPodcast.vue';
 	<Hero />
 	<WeeklyPodcast />
 	<TopPodcasters />
+	<Delivery />
 </template>

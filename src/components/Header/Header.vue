@@ -1,5 +1,12 @@
 <script setup>
+import { ref } from 'vue';
 import Button from '../Button/Button.vue';
+import Navbar from '../Navbar/Navbar.vue';
+
+const isNavbarVisible = ref(false);
+const toggleNavbar = () => {
+	isNavbarVisible.value = !isNavbarVisible.value;
+};
 </script>
 
 <template>
@@ -52,20 +59,31 @@ import Button from '../Button/Button.vue';
 					/>
 				</svg>
 			</a>
-			<div class="flex-1 hidden items-center lg:flex">
-				<nav class="mx-auto">
-					<ul class="flex gap-4">
-						<li><a href="#" class="px-4 py-2">About</a></li>
-						<li><a href="#" class="px-4 py-2">Subscribe</a></li>
-						<li><a href="#" class="px-4 py-2">Episode</a></li>
-						<li><a href="#" class="px-4 py-2">Insiders</a></li>
-					</ul>
-				</nav>
-			</div>
-			<Button class="hidden sm:inline-flex ms-auto justify-center"
+			<Navbar
+				:isNavbarVisible="isNavbarVisible"
+				@toggle-navbar="toggleNavbar"
+			/>
+			<Button class="hidden sm:inline-flex ms-auto border-orange-950 min-w-52"
 				>Subscribe now</Button
 			>
-			<!-- <Button class="lg:hidden ms-auto sm:ms-0">Toggle</Button> -->
+			<Button
+				class="lg:hidden ms-auto sm:ms-0 px-0 border-none"
+				@click="toggleNavbar"
+			>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					x="0px"
+					y="0px"
+					width="28"
+					height="28"
+					viewBox="0 0 50 50"
+				>
+					<path
+						d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"
+						class="fill-orange-950"
+					></path>
+				</svg>
+			</Button>
 		</div>
 	</header>
 </template>

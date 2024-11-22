@@ -22,7 +22,7 @@ const handleClick = (event) => {
 <template>
 	<button
 		:class="[
-			'border inline-flex items-center rounded-full p-4 min-w-52 font-bold text-orange-950 border-orange-950',
+			'border inline-flex items-center justify-center rounded-full p-4 font-bold text-orange-950',
 			disabled ? 'opacity-50 cursor-not-allowed' : '',
 		]"
 		:disabled="disabled"

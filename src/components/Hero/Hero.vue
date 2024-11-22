@@ -3,7 +3,7 @@ import Button from '../Button/Button.vue';
 </script>
 
 <template>
-	<section class="bg-orange-50 min-h-svh py-8">
+	<section class="bg-orange-50 py-8">
 		<div
 			class="container flex flex-col-reverse md:flex-row gap-y-12 items-center"
 		>
@@ -19,7 +19,7 @@ import Button from '../Button/Button.vue';
 					cater to your interests and needs.
 				</p>
 				<Button
-					class="bg-yellow-300 !border-yellow-300 justify-between ps-6 pe-2 py-1"
+					class="bg-yellow-300 border-yellow-300 justify-between ps-6 pe-2 py-1.5 min-w-52"
 					>Listen Now
 					<svg
 						width="48"

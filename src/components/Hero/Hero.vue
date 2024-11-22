@@ -3,7 +3,7 @@ import Button from '../Button/Button.vue';
 </script>
 
 <template>
-	<section class="bg-orange-50 py-8">
+	<section class="bg-orange-50 py-16">
 		<div
 			class="container flex flex-col-reverse md:flex-row gap-y-12 items-center"
 		>

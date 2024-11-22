@@ -7,7 +7,7 @@ import thumbnail from '../../assets/images/listen.svg';
 	<section>
 		<div class="container py-16">
 			<div
-				class="bg-orange-950 py-16 text-white rounded-3xl grid grid-cols-1 lg:grid-cols-2 items-center gap-8"
+				class="bg-orange-950 py-16 px-8 text-white rounded-3xl grid grid-cols-1 lg:grid-cols-2 items-center gap-16"
 			>
 				<div>
 					<img

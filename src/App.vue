@@ -1,6 +1,7 @@
 <script setup>
 import Difference from './components/Difference/Difference.vue';
 import Delivery from './components/Delivery/Delivery.vue';
+import Footer from './components/Footer/Footer.vue';
 import Header from './components/Header/Header.vue';
 import Hero from './components/Hero/Hero.vue';
 import Listen from './components/Listen/Listen.vue';
@@ -16,4 +17,5 @@ import WeeklyPodcast from './components/WeeklyPodcast/WeeklyPodcast.vue';
 	<Delivery />
 	<Difference />
 	<Listen />
+	<Footer />
 </template>
